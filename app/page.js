@@ -95,7 +95,7 @@ function Hero() {
   };
   const ctaRow = { display: "flex", flexWrap: "wrap", gap: 12, marginTop: 24 };
   const small = { marginTop: 12, fontSize: 12, opacity: 0.85 };
-  const mail = "mailto:adekemiakinsipe@gmail.com";
+  const mail = "mailto:akinsipeadekemi@gmail.com";
   return (
     <section id="hero" style={wrap}>
       <div style={{ ...containerStyle }}>
@@ -163,9 +163,9 @@ function Ministry() {
   const items = [
     { title: "Revival & Teaching", text: "Gospel-centered preaching for churches and conferences." },
     { title: "Leadership Workshops", text: "Practical training for pastors, departments, and volunteers." },
-    { title: "Worship Nights", text: "Prayer gatherings that foster unity and devotion." },
+    { title: "Worship Ministrations", text: "Prayer gatherings that foster unity and devotion." },
   ];
-  const mail = "mailto:adekemiakinsipe@gmail.com";
+  const mail = "mailto:akinsipeadekemi@gmail.com";
   return (
     <section id="ministry" style={{ ...sectionStyle, background: "#fff" }}>
       <div style={containerStyle}>
@@ -191,7 +191,7 @@ function Consulting() {
     { title: "Faith-Aligned Stewardship", text: "Biblical principles applied to modern finance decisions." },
     { title: "Non-profit Finance", text: "Transparent reporting and donor confidence." },
   ];
-  const mail = "mailto:adekemiakinsipe@gmail.com";
+  const mail = "mailto:akinsipeadekemi@gmail.com";
   return (
     <section id="consulting" style={{ ...sectionStyle, background: TOKENS.soft }}>
       <div style={containerStyle}>
@@ -292,12 +292,12 @@ function Timeline() {
 }
 
 function Contact() {
-  const mail = "mailto:adekemiakinsipe@gmail.com";
+  const mail = "mailto:akinsipeadekemi@gmail.com";
   return (
     <section id="contact" style={{ ...sectionStyle, background: "#fff" }}>
       <div style={containerStyle}>
         <h2 style={h2Style}>Contact & Booking</h2>
-        <p style={{ ...pSubStyle, marginTop: 6 }}>Email: <a href="mailto:adekemiakinsipe@gmail.com">adekemiakinsipe@gmail.com</a></p>
+        <p style={{ ...pSubStyle, marginTop: 6 }}>Email: <a href="mailto:akinsipeadekemi@gmail.com">adekemiakinsipe@gmail.com</a></p>
         <div className="grid-contact" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16, marginTop: 16 }}>
           <div className="glass" style={{ ...cardStyle, display: "grid", gap: 10 }}>
             <h3 style={{ margin: 0, color: TOKENS.navy }}>Ministry Booking</h3>
@@ -334,7 +334,7 @@ function Footer() {
         </div>
         <div>
           <p style={{ margin: 0, fontWeight: 700, marginBottom: 6 }}>Contact</p>
-          <p style={{ margin: 0 }}><a href="mailto:adekemiakinsipe@gmail.com" style={{ color: "#fff", textDecoration: "none" }}>adekemiakinsipe@gmail.com</a></p>
+          <p style={{ margin: 0 }}><a href="mailto:akinsipeadekemi@gmail.com" style={{ color: "#fff", textDecoration: "none" }}>adekemiakinsipe@gmail.com</a></p>
           <p style={{ margin: 0 }}>Ibadan</p>
         </div>
         <div>
