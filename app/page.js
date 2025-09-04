@@ -99,7 +99,7 @@ function Hero() {
   return (
     <section id="hero" style={wrap}>
       <div style={{ ...containerStyle }}>
-        <h1 style={{ fontSize: 44, lineHeight: 1.15, margin: 0, fontWeight: 800 }}>Called to Serve. Equipped to Lead.</h1>
+        <h1 style={{ fontSize: 44, lineHeight: 1.15, margin: 0, fontWeight: 800 }}>I was created to make His praise glorious</h1>
         <p style={{ maxWidth: 740, marginTop: 12 }}>
           Evangelist and finance professional helping churches and organizations grow with integrity - combining
           Gospel-centered leadership, MBA strategy, ACA/CPA expertise, and a passion for worship.
